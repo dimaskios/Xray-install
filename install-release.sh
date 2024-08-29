@@ -335,7 +335,7 @@ check_install_user() {
         INSTALL_USER='root'
       fi
     else
-      INSTALL_USER='nobody'
+      INSTALL_USER='di'
     fi
   fi
   if ! id "$INSTALL_USER" > /dev/null 2>&1; then
